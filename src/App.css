@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('./fonts/Cafe24Ssurround.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.outer {
+	position: relative;
+	margin: 0;
+}
+.App {
+	background-color: #EDABA9;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	text-align: center;
+	border: 5px solid;
+	width: 500px;
+	padding: 20px;
+}
+.Logo-nav {
+	
+	background-color: #FBF4E1;
+	position: relative;
+	width: 490px;
+	height: 300px;
+	border : 4px solid;
+	padding: 0 auto;
+	margin: 0px auto;
+}
+
+.LoginContainer {
+	background-color: #A09484;
+	margin-top: 0px;
+	margin-left: 0%;
+	width: 490px;
+	height: 120px;
+	border : 4px solid;
+	padding: 0px;
+
+
+}
+.Explanation {
+	background-color: #EDABA9;
+	margin-top: 10px;
+	margin-left: 0%;
+	width: 490px;
+	height: 80px;
+	padding: 0px;
+
+
+}
+.cafeImage {
+	width: 100%;
+	height: 85%;
+	display: block;
+}
+.SeatStatus {
+	
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	margin-top: 0;
+}
+
+.status-description {
+	font-size: 25px;
+	position: relative;
+	transform: translateX(-50%);
+	left: 50%;
+	bottom: 0;
+}
+
+
+.PhoneContainer {
+	margin-left: 0;
+	background-color: #A09484;
+	width: 360px;
+	height: 40%;
+	margin-top: 0;
+	padding-left: 12px;
+
+}
+.PhoneContainer input {
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 18px;
+	border: 5px solid;
+	outline: none;
+	padding: 0;
+}
+.auth-button {
+	height: 40px;
+	padding: 5px;
+	margin-left: 3px;
+	border-radius: 5px;
+	border: 5px solid;
+	font-family: 'Cafe24Ssurround';
+	outline: none;
+	font-size: 15px;
+}
+.login-button {
+	width: 90px;
+	height: 90px;
+	margin-left: 0;
+	transform: translate(165px, -30px);
+	border-radius: 5px;
+	border: 5px solid;
+	outline: none;
+	font-family: 'Cafe24Ssurround';
+	font-size: 20px;
+
+}
+.AuthContainer {
+	transform: translateY(-80px);
+	padding: 0px;
+	margin: 0;
+	background-color: #A09484;
+	width: 348px;
+	height: 40%;
+	margin-top: 0;
+	padding-left: 15px;
+}
+
+.AuthContainer input {
+	width: 315px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 5%;
+	margin-top: 6px;
+	padding: 0;
+	border: 5px solid;
+	outline: none;
+}
+
+/* select-and-pay*/
+.select-and-pay {
+	display: flex;
+}
+
+/* select fee */
+.select-fee {
+	position: relative;
+	margin-left: 29px;
+	border: 1px solid gray;
+	width: 250px;
+	height: 80px;
+}
+
+.select-fee select {
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+
+	text-align: center;
+	margin: 10px auto;
+	width: 240px;
+	height: 60px;
+}
+
+/* Pay Container */
+.pay-container {
+	position: relative;
+	width: 188px;
+	height: 80px;
+	border: 1px solid gray;
+}
+
+.pay-container button {
+	font-family: "Noto Sans KR", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+
+	margin: auto;
+	width: 180px;
+	height: 80px;
+}
